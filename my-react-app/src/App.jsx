@@ -1,16 +1,18 @@
 import Header from "./components/Header";
+import Footer from "./components/Footer";
+import UserCard from "./components/UserCard";
 
 function App() {
   return (
-    <div>
-      <Header 
-        name="Muhammad Abdullah Shahid"
-        position="Dot-Net + React Intern"
-      />
+    <>
+      <Header title="My Team Members" />
 
-      <h1>Welcome to My First React App 🚀</h1>
-      <p>This is Day 1 of my React learning journey.</p>
-    </div>
+      <UserCard name="Abdullah Shahid" role="React Intern" city="Lahore" />
+      <UserCard name="Ali Khan" role="Backend Developer" city="Karachi" />
+      <UserCard name="Sara Ahmed" role="UI/UX Designer" city="Islamabad" />
+
+      <Footer text="© 2026 My React Learning Project" />
+    </>
   );
 }
 
