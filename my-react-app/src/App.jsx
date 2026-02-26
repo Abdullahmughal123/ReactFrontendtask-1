@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import UserCard from "./components/UserCard";
 import Counter from "./components/Counter";
+import ItemList from "./components/ItemList";
 
 // function App() {
 //   return (
@@ -16,11 +17,22 @@ import Counter from "./components/Counter";
 //     </>
 //   );
 // }
+// function App() {
+//   return (
+//     <>
+//       <h1>React useState Practice</h1>
+//       <Counter />
+//     </>
+//   );
+// }
+// export default App;
+
+
 function App() {
   return (
     <>
-      <h1>React useState Practice</h1>
-      <Counter />
+      <h1>React List Rendering</h1>
+      <ItemList />
     </>
   );
 }
